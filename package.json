@@ -8,7 +8,7 @@
         "commit": "pnpm exec git-cz",
         "prepare:all": "pnpm run fix && pnpm run check && pnpm test",
         "\n========== BUILD >> ==========": "",
-            "build": "pnpm -r build",
+        "build": "pnpm -r build",
         "build:self": "tsc --build",
         "\n========== CODE STYLE >> ==========": "",
         "lint": "cross-var eslint \"$npm_package_config_eslint_path.{$npm_package_config_eslint_extensions}\" -c $npm_package_config_eslint_config",

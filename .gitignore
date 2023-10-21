@@ -137,3 +137,5 @@ scratch
 #todo: figure out what to do with this
 apps
 .env
+.idea
+.pnpm-store

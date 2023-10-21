@@ -2,4 +2,4 @@
 'test-package': patch
 ---
 
-initial release
+This is the dumest

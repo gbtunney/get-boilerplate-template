@@ -6,7 +6,11 @@
     "scripts": {
         "\n========== COMMIT >> ==========": "",
         "commit": "pnpm exec git-cz",
-        "prepare:all": "pnpm run fix && pnpm run check && pnpm test",
+   
+        
+            
+                
+                         "prepare:all": "pnpm run fix && pnpm run check && pnpm test",
         "\n========== BUILD >> ==========": "",
         "build": "pnpm -r build",
         "build:self": "tsc --build",

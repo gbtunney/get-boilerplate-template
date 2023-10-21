@@ -1,14 +1,14 @@
 {
     "name": "@gbt/root",
     "version": "0.0.0",
-    "description": "Monorepo Root Package Template File",
+    "description": "Monorepo (edited)Root Package Template File",
     "packageManager": "pnpm@^8.5.0",
     "scripts": {
         "\n========== COMMIT >> ==========": "",
         "commit": "pnpm exec git-cz",
         "prepare:all": "pnpm run fix && pnpm run check && pnpm test",
         "\n========== BUILD >> ==========": "",
-        "build": "pnpm -r build",
+            "build": "pnpm -r build",
         "build:self": "tsc --build",
         "\n========== CODE STYLE >> ==========": "",
         "lint": "cross-var eslint \"$npm_package_config_eslint_path.{$npm_package_config_eslint_extensions}\" -c $npm_package_config_eslint_config",

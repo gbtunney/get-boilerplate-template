@@ -42,5 +42,7 @@ jobs:
               run: |
                   pnpm run build && pnpm run fix && pnpm run check
                   git status
-                  git add .
-                  git commit -m "chore: this was (autoformatted) edited by a bot
+
+            - uses: stefanzweifel/git-auto-commit-action@v5
+              with:
+                  commit_message: 'style(root): formatted by bot'
